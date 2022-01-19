@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container + " bg-primary bg-gradient"}>
       <main className={styles.main}>
+      <Head title="Cárbula" />
       <div className="row  justify-content-center align-items-center">
         <div className="col-md-6">
           <img src="../images/logo.svg" className="img-fluid" alt="Logo"></img>

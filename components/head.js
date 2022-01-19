@@ -9,7 +9,6 @@ const defaultOGImage = '/images/carbula-preview.jpg'
 
 const Head = props => {
   const router = useRouter()
-  const COUNTRY_CODE = getCountryCode(router.locale)
   return (
     <NextHead>
       <meta charSet="UTF-8" />
@@ -19,7 +18,6 @@ const Head = props => {
         content={props.description || defaultDescription}
       />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="facebook-domain-verification" content={getFacebookDomainVerification(COUNTRY_CODE)} />
       <link rel="icon" sizes="192x192" href="/icons/favicon_196.ico" />
       <link rel="alternate" hrefLang="es-MX" href="https://carbula.mx" />
       <link rel="alternate" hrefLang="es-CL" href="https://carbula.cl" />
