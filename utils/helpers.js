@@ -1,3 +1,9 @@
+import { lowerCase } from 'lodash'
+
+export const getCountryCode = (locale) => {
+  locale != undefined ? lowerCase(locale.slice(3)) : 'ar'
+}
+
 export const getFacebookDomainVerification = (country_code) => {
   const ids = {
     ar: 'o1cpz3juti6u4og457vtz73phm8v4m',

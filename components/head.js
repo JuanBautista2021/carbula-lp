@@ -2,6 +2,7 @@ import React from 'react'
 import NextHead from 'next/head'
 import { string } from 'prop-types'
 import { useRouter } from 'next/router'
+import { getCountryCode, getFacebookDomainVerification } from '../utils/helpers'
 
 const defaultTitle = 'Cárbula - Compra y Venta de Autos Usados'
 const defaultDescription = 'Vende tu vehículo por hasta un 25% más de dinero. De forma segura y sin salir de casa.'
@@ -11,7 +12,6 @@ const defaultKeywords = 'autos usados Argentina, autos usados Chile, autos usado
 
 const Head = props => {
   const router = useRouter()
-  const defaultCountryCode = 'ar'
   const COUNTRY_CODE = getCountryCode(router.locale)
   return (
     <NextHead>
@@ -20,7 +20,7 @@ const Head = props => {
       <title>{props.title || defaultTitle}</title>
       <meta name="description" content={props.description || defaultDescription} />
       <meta name="keywords" content={props.keywords || defaultKeywords} lang="es" />
-      <meta name="facebook-domain-verification" content={getFacebookDomainVerification(COUNTRY_CODE) || defaultCountryCode} />
+      <meta name="facebook-domain-verification" content={getFacebookDomainVerification(COUNTRY_CODE)} />
       <link rel="icon" sizes="192x192" href="/icons/favicon_196.ico" />
       <link rel="icon" href="/favicon.ico" />
       <link rel="canonical" hreflang="x-default" href="https://carbula.com"/>
