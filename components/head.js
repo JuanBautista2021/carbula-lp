@@ -7,7 +7,7 @@ const defaultTitle = 'Cárbula - Compra y Venta de Autos Usados'
 const defaultDescription = 'Vende tu vehículo por hasta un 25% más de dinero. De forma segura y sin salir de casa.'
 const defaultOGURL = '/images/carbula-preview.jpg'
 const defaultOGImage = '/images/carbula-preview.jpg'
-const defaulKeywords = 'autos usados Argentina, autos usados Chile, autos usados Uruguay, autos usados México, compra y venta autos usados Argentina, compra y venta autos usados Chile, compra y venta autos usados Uruguay, compra y venta coches usados México, compra y venta carros usados México, venta autos usados, compra por internet, compra online de vehículos, venta online de vehículos'
+const defaultKeywords = 'autos usados Argentina, autos usados Chile, autos usados Uruguay, autos usados México, compra y venta autos usados Argentina, compra y venta autos usados Chile, compra y venta autos usados Uruguay, compra y venta coches usados México, compra y venta carros usados México, venta autos usados, compra por internet, compra online de vehículos, venta online de vehículos'
 
 const Head = props => {
   const router = useRouter()
@@ -19,7 +19,7 @@ const Head = props => {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>{props.title || defaultTitle}</title>
       <meta name="description" content={props.description || defaultDescription} />
-      <meta name="keywords" content={props.keywords || defaulKeywords} lang="es" />
+      <meta name="keywords" content={props.keywords || defaultKeywords} lang="es" />
       <meta name="facebook-domain-verification" content={getFacebookDomainVerification(COUNTRY_CODE) || defaultCountryCode} />
       <link rel="icon" sizes="192x192" href="/icons/favicon_196.ico" />
       <link rel="icon" href="/favicon.ico" />
