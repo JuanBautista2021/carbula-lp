@@ -23,7 +23,7 @@ const Head = props => {
       <meta name="facebook-domain-verification" content={getFacebookDomainVerification(COUNTRY_CODE)} />
       <link rel="icon" sizes="192x192" href="/icons/favicon_196.ico" />
       <link rel="icon" href="/favicon.ico" />
-      <link rel="canonical" hreflang="x-default" href="https://carbula.com"/>
+      <link rel="canonical" hrefLang="x-default" href="https://carbula.com"/>
       <link rel="alternate" hrefLang="es-AR" href="https://carbula.ar" />
       <link rel="alternate" hrefLang="es-CL" href="https://carbula.cl" />
       <link rel="alternate" hrefLang="es-MX" href="https://carbula.mx" />
