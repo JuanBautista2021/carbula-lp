@@ -6,7 +6,7 @@ import { Fragment } from 'react'
 export default function Home() {
   return (
     <Fragment>
-      <Head />
+      <Head title='Cárbula - Compra y Venta de Autos Usados' />
       <div className={styles.container + " bg-primary bg-gradient"}>
         <main className={styles.main}>
           <div className="row  justify-content-center align-items-center">

@@ -1,7 +1,7 @@
 import { lowerCase, isUndefined } from 'lodash'
 
 export const getCountryCode = (locale) => {
-  isUndefined(locale) ? 'ar' : lowerCase(locale.slice(3))
+  return isUndefined(locale) ? 'ar' : lowerCase(locale.slice(3))
 }
 
 export const getFacebookDomainVerification = (country_code) => {
