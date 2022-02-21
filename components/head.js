@@ -4,11 +4,11 @@ import { string } from 'prop-types'
 import { useRouter } from 'next/router'
 import { getCountryCode, getFacebookDomainVerification } from '../utils/helpers'
 
-const defaultTitle = 'Cárbula - Compra y Venta de Autos Usados'
+const defaultTitle = 'Cárbula - La nueva forma para comprar o vender autos'
 const defaultDescription = 'Vende tu vehículo por hasta un 25% más de dinero. De forma segura y sin salir de casa.'
 const defaultOGURL = '/images/carbula-preview.jpg'
 const defaultOGImage = '/images/carbula-preview.jpg'
-const defaultKeywords = 'autos usados Argentina, autos usados Chile, autos usados Uruguay, autos usados México, compra y venta autos usados Argentina, compra y venta autos usados Chile, compra y venta autos usados Uruguay, compra y venta coches usados México, compra y venta carros usados México, venta autos usados, compra por internet, compra online de vehículos, venta online de vehículos'
+const defaultKeywords = 'autos usados Argentina, autos usados Mendoza, compra y venta autos usados Argentina, compra y venta autos usados Mendoza, carros usados Chile, carros usados Santiago de Chile, compra y venta carros usados Uruguay, compra y venta carros usados Montevideo, coches usados México, coches usados Ciudad de México, compra y venta coches usados México, compra y venta coches usados Ciudad de México, venta autos usados, compra por internet, compra online de vehículos, venta online de vehículos, carros usados hasta 150000 kilómetros, coches usados hasta 150000 kilómetros, vehículos usados hasta 150000 kilómetros, autos usados hasta 150000 kilómetros, autos seminuevos Ciudad de México, vehículos seminuevos Ciudad de México, coches seminuevos Ciudad de México, carros seminuevos Ciudad de México, autos seminuevos Santiago de Chile, autos seminuevos Montevideo, autos seminuevos Uruguay, autos seminuevos Argentina'
 
 const Head = props => {
   const router = useRouter()
