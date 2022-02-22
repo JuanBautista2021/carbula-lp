@@ -6,12 +6,12 @@ import { Fragment } from 'react'
 export default function Home() {
   return (
     <Fragment>
-      <Head title='Cárbula - Compra y Venta de Autos Usados' />
+      <Head title='Cárbula - La nueva forma de comprar o vender autos' />
       <div className={styles.container + " bg-primary bg-gradient"}>
         <main className={styles.main}>
           <div className="row  justify-content-center align-items-center">
             <div className="col-md-6">
-              <img src="../images/logo.svg" className="img-fluid" alt="Logo"></img>
+              <img src="../images/logo.svg" className="img-fluid" alt="Cárbula logo"></img>
             </div>
             <div className="col-md-6">
               <ul className="list-group list-group-flush">
