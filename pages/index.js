@@ -6,7 +6,7 @@ import { Fragment } from 'react'
 export default function Home() {
   return (
     <Fragment>
-      <Head title='Cárbula - La nueva forma de comprar o vender autos' />
+      <Head title='Compra y venta de autos usados Argentina, Chile, México, Uruguay | Cárbula' />
       <div className={styles.container + " bg-primary bg-gradient"}>
         <main className={styles.main}>
           <div className="row  justify-content-center align-items-center">
