@@ -56,6 +56,16 @@
   font-size: 1.5rem;
 }
 
+.claim {
+  /*margin: 4rem 0;*/
+  /*line-height: 1.5;*/
+  font-size: 1rem;
+  text-align: left;
+  color: #fff;
+  font-weight: normal;
+}
+
+
 .code {
   background: #fafafa;
   border-radius: 5px;

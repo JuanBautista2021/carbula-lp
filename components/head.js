@@ -4,8 +4,8 @@ import { string } from 'prop-types'
 import { useRouter } from 'next/router'
 import { getCountryCode, getFacebookDomainVerification } from '../utils/helpers'
 
-const defaultTitle = 'Compra y venta de autos usados Argentina, Chile, México, Uruguay | Cárbula'
-const defaultDescription = 'Vende tu vehículo certificado por hasta un 25% más de dinero. Comprá tu auto usado de forma segura.'
+const defaultTitle = 'Marketplace de autos usados en Argentina, Chile, México y Uruguay | Cárbula'
+const defaultDescription = 'Vende tu auto seminuevo por hasta 25% más de dinero. Compra tu auto usado de forma segura, simple y transparente.'
 const defaultKeywords = 'cartech, autos usados Argentina, autos usados Mendoza, compra y venta autos usados Argentina, compra y venta autos usados Mendoza, carros usados Chile, carros usados Santiago de Chile, compra y venta carros usados Uruguay, compra y venta carros usados Montevideo, coches usados México, coches usados Ciudad de México, compra y venta coches usados México, compra y venta coches usados Ciudad de México, venta autos usados, compra por internet, compra online de vehículos, venta online de vehículos, carros usados hasta 150000 kilómetros, coches usados hasta 150000 kilómetros, vehículos usados hasta 150000 kilómetros, autos usados hasta 150000 kilómetros, autos seminuevos Ciudad de México, vehículos seminuevos Ciudad de México, coches seminuevos Ciudad de México, carros seminuevos Ciudad de México, autos seminuevos Santiago de Chile, autos seminuevos Montevideo, autos seminuevos Uruguay, autos seminuevos Argentina'
 const defaultOGURL = '/images/carbula-preview.jpg'
 const defaultOGImage = '/images/carbula-preview.jpg'
@@ -30,7 +30,6 @@ const Head = props => {
       <link rel="alternate" hrefLang="es-CL" href="https://www.carbula.cl" />
       <link rel="alternate" hrefLang="es-MX" href="https://www.carbula.mx" />
       <link rel="alternate" hrefLang="es-UY" href="https://www.carbula.uy" />
-      <link rel="alternate" />
       <meta property="og:url" content={props.url || defaultOGURL} />
       <meta property="og:title" content={props.title || defaultTitle} />
       <meta property="og:description" content={props.description || defaultDescription} />
