@@ -6,13 +6,13 @@ import { Fragment } from 'react'
 export default function Home() {
   return (
     <Fragment>
-      <Head title='Autos autos usados en Argentina, Chile, México y Uruguay | Cárbula' />
+      <Head title='Marketplace de compra y venta de autos usados en Argentina, Chile, México y Uruguay | Cárbula' />
       <div className={styles.container + " bg-primary bg-gradient"}>
         <main className={styles.main}>
           <div className="row justify-content-center align-items-center">
             <div className="col-md-6">
               <img src="../images/logo.svg" className="img-fluid" alt="Cárbula logo"></img>
-              <h1 className="claim">Marketplace de autos usados</h1>
+              <h1 className="claim">Marketplace de compra y venta de autos usados</h1>
             </div>
             <div className="col-md-6">
               <ul className="list-group list-group-flush">

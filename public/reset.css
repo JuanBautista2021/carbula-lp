@@ -57,17 +57,24 @@
 }
 
 .claim {
-  /*margin: 4rem 0;*/
-  /*line-height: 1.5;*/
+  
   font-size: 1rem;
   text-align: left;
   color: #fff;
   font-weight: normal;
+  margin-left: 0.5rem;
+  line-height: 1.2rem;
+  letter-spacing: 0.06rem;
 }
 
+@media (min-width: 360px) {
+  .claim {
+    padding-bottom: 2rem;
+  }
+}
 
 .code {
-  background: #fafafa;
+  background: #fff;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
