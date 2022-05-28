@@ -1,0 +1,4 @@
+user-agent: *
+disallow: 
+
+sitemap: https://www.carbula.com/static-sitemap/sitemap-com.xml
