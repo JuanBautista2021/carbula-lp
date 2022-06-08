@@ -4,11 +4,7 @@ import Head from '../../components/head'
 import { Fragment } from 'react'
 
 export default function Home() {
-  const { asPath } = useRouter();
-  const origin = typeof window !== 'undefined' && window.location.origin ? window.location.origin : '';
-  const host = `${origin}${asPath}`;
-  const subdomain = host.split('.')[0].split('//')[1]
-  return subdomain === 'catalogo' ? (<Catalogue/>) : (
+  return (
     <Fragment>
       <Head title='Marketplace de Compra y Venta de Autos Usados | Carbula Autos' />
       <div className={styles.container + " bg-primary bg-gradient"}>
