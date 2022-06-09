@@ -15,7 +15,6 @@ export default function Catalogue() {
               <h1 className="claim">Marketplace de Compra y Venta de Autos Usados</h1>
             </div>
             <div className="col-md-6">
-              <p>...</p>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item bg-transparent"><a href="https://catalogo.carbula.ar/" className="btn btn-outline-light border-0" role="button"><img src="../images/banderas/flgAR.svg" className={styles.icoflg} alt="Bandera AR"></img>Argentina</a></li>
                 <li className="list-group-item bg-transparent"><a href="https://catalogo.carbula.cl/" className="btn btn-outline-light border-0" role="button"><img src="../images/banderas/flgCL.svg" className={styles.icoflg} alt="Bandera CL"></img>Chile</a></li>
