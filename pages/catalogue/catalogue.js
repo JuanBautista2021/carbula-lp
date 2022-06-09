@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
-import Head from './headCatalogue'
+import Head from '../../components/headCatalogue'
 import { Fragment } from 'react'
 
 export default function Catalogue() {
