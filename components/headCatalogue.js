@@ -10,7 +10,7 @@ const defaultKeywords = 'marketplace de compra y venta de autos usados, cartech,
 const defaultOGURL = '/images/carbula-preview.jpg'
 const defaultOGImage = '/images/carbula-preview.jpg'
 
-const headCatalogue = props => {
+const Head = props => {
   const router = useRouter()
   const COUNTRY_CODE = getCountryCode(router.locale)
   return (
@@ -43,7 +43,7 @@ const headCatalogue = props => {
   )
 }
 
-headCatalogue.propTypes = {
+Head.propTypes = {
   title: string,
   description: string,
   url: string,
@@ -51,4 +51,4 @@ headCatalogue.propTypes = {
   keywords: string
 }
 
-export default headCatalogue
+export default Head
