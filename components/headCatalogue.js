@@ -2,7 +2,7 @@ import React from 'react'
 import NextHead from 'next/head'
 import { string } from 'prop-types'
 import { useRouter } from 'next/router'
-import { getCountryCode, getFacebookDomainVerification } from '../../utils/helpers'
+import { getCountryCode, getFacebookDomainVerification } from '../utils/helpers'
 
 const defaultTitle = 'Marketplace de Compra y Venta de Autos Usados | Carbula Autos'
 const defaultDescription = 'Vende tu auto seminuevo por hasta 25% más de dinero. Compra tu auto seminuevo de forma segura, simple y transparente.'
