@@ -6,13 +6,13 @@ import { Fragment } from 'react'
 export default function Catalogue() {
   return (
     <Fragment>
-      <Head title='Marketplace de Compra y Venta de Autos Usados | Carbula Autos' />
+      <Head title='Venta de Autos Usados | Catalogo Carbula Autos' />
       <div className={styles.container + " bg-primary bg-gradient"}>
         <main className={styles.main}>
           <div className="row justify-content-center align-items-center">
             <div className="col-md-6">
               <img src="../images/logo.svg" className="img-fluid" alt="Cárbula logo"></img>
-              <h1 className="claim">Marketplace de Compra y Venta de Autos Usados</h1>
+              <h1 className="claim">Venta de Autos Usados</h1>
             </div>
             <div className="col-md-6">
               <ul className="list-group list-group-flush">
