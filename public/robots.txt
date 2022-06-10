@@ -1,4 +1,5 @@
 user-agent: *
 disallow: 
 
-sitemap: https://www.carbula.com/static-sitemap/sitemap-com.xml
+sitemap: https://www.carbula.com/static-sitemap/sitemap-indexHome.xml
+sitemap: https://www.carbula.com/static-sitemap/sitemap-indexCatalogo.xml
