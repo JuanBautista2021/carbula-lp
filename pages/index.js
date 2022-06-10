@@ -1,6 +1,8 @@
 import { useRouter } from 'next/router';
-import Home from "./home/home"
-import Catalogue from "./catalogue/catalogue"
+import dynamic from 'next/dynamic'
+
+const Home = dynamic(() => import('./home/homeIndex'))
+const Catalogue = dynamic(() => import('./catalogue/catalogueIndex'))
 
 export default function Main() {
   const { asPath } = useRouter();

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/Catalogue.module.css'
 import Head from '../../components/headCatalogue'
 import { Fragment } from 'react'
 
