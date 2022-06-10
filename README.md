@@ -10,7 +10,9 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+IndexHome: Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Catalogo: Open [http://catalogo.localhost:3000/](http://catalogo.localhost:3000/) with your browser to see the result.
+
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
