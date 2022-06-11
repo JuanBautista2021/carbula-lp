@@ -4,9 +4,9 @@ import { string } from 'prop-types'
 import { useRouter } from 'next/router'
 import { getCountryCode, getFacebookDomainVerification } from '../utils/helpers'
 
-const defaultTitle = 'Venta de Autos Usados | Catalogo Carbula Autos'
-const defaultDescription = 'Compra tu auto usado de forma segura, simple y transparente.'
-const defaultKeywords = 'marketplace de compra y venta de autos usados, cartech, autos usados Argentina, autos usados Mendoza, compra y venta autos usados Argentina, compra y venta autos usados Mendoza, carros usados Chile, carros usados Santiago de Chile, coches usados México, coches usados Ciudad de México, compra y venta coches usados México, compra y venta coches usados Ciudad de México, venta autos usados, compra por internet, compra online de vehículos, venta online de vehículos, carros usados hasta 150000 kilómetros, coches usados hasta 150000 kilómetros, vehículos usados hasta 150000 kilómetros, autos usados hasta 150000 kilómetros, autos seminuevos Ciudad de México, vehículos seminuevos Ciudad de México, coches seminuevos Ciudad de México, carros seminuevos Ciudad de México, autos seminuevos Santiago de Chile, autos seminuevos Argentina'
+const defaultTitle = 'Venta de autos usados | Catalogo Carbula Autos'
+const defaultDescription = 'Compra autos usados al mejor precio ✓ Consulta por financiacion'
+const defaultKeywords = 'compra y venta de autos usados, cartech, autos usados Argentina, autos usados Mendoza, compra y venta autos usados Argentina, compra y venta autos usados Mendoza, carros usados Chile, carros usados Santiago de Chile, coches usados México, coches usados Ciudad de México, compra y venta coches usados México, compra y venta coches usados Ciudad de México, venta autos usados, compra por internet, compra online de vehículos, venta online de vehículos, carros usados hasta 150000 kilómetros, coches usados hasta 150000 kilómetros, vehículos usados hasta 150000 kilómetros, autos usados hasta 150000 kilómetros, autos seminuevos Ciudad de México, vehículos seminuevos Ciudad de México, coches seminuevos Ciudad de México, carros seminuevos Ciudad de México, autos seminuevos Santiago de Chile, autos seminuevos Argentina'
 const defaultOGURL = '/images/carbula-preview.jpg'
 const defaultOGImage = '/images/carbula-preview.jpg'
 
