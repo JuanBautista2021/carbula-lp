@@ -1,9 +1,10 @@
 import Image from 'next/image'
 import styles from '../../styles/Catalogue.module.css'
-import Head from '../../components/headCatalogue'
+import dynamic from 'next/dynamic'
 import { Fragment } from 'react'
 
 export default function Catalogue() {
+  const Head = dynamic(() => import('../../components/headCatalogue'))
   return (
     <Fragment>
       <Head title='Venta de autos usados | Catalogo Carbula Autos' />
