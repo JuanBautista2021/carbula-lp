@@ -13,3 +13,7 @@ export const getFacebookDomainVerification = (country_code) => {
   }
   return ids[country_code]
 }
+
+export const getGTMid = () =>{
+  return 'GTM-K7B5ZFW'
+}
