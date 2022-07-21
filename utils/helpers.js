@@ -1,4 +1,12 @@
+import { useRouter } from 'next/router';
 import { lowerCase, isUndefined } from 'lodash'
+
+export const getSubdomain = () =>{
+  const { asPath } = useRouter();
+  const origin = typeof window !== 'undefined' && window.location.origin ? window.location.origin : '';
+  const host = `${origin}${asPath}`;
+  return host.split('.')[0].split('//')[1]
+}
 
 export const getCountryCode = (locale) => {
   return isUndefined(locale) ? 'ar' : lowerCase(locale.slice(3))
