@@ -21,6 +21,7 @@ export default function Home() {
                 <li className="list-group-item bg-transparent"><a href="https://www.carbula.cl/" className="btn btn-outline-light border-0" role="button"><img src="../images/banderas/flgCL.svg" className={styles.icoflg} alt="Bandera CL"></img>Chile</a></li>
                 {/* <li className="list-group-item bg-transparent"><a href="https://www.carbula.mx/" className="btn btn-outline-light border-0" role="button"><img src="../images/banderas/flgMX.svg" className={styles.icoflg} alt="Bandera MX"></img>México</a></li> */}
                 <li className="list-group-item bg-transparent"><a href="https://www.carbula.pe/" className="btn btn-outline-light border-0" role="button"><img src="../images/banderas/flgPE.svg" className={styles.icoflg} alt="Bandera PE"></img>Perú</a></li>
+                {/* <li className="list-group-item bg-transparent"><a href="https://www.carbula.uy/" className="btn btn-outline-light border-0" role="button"><img src="../images/banderas/flgUY.svg" className={styles.icoflg} alt="Bandera UY"></img>Uruguay</a></li> */}
               </ul>
             </div>
           </div>
